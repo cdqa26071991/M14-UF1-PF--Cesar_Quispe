@@ -1,0 +1,127 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Diseño general */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 20px;
+  }
+  
+  header {
+    width: 100%;
+    height: 20%;
+    background-color: #6a1ef7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 20%;
+    background-color: #ed9128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    margin-top: 10vh;
+    margin-bottom: auto;
+  }
+  
+  /* Estilos de la página principal */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    width: 30vw;
+    margin-top: 20vh;
+  }
+  
+  button {
+    width: 20vw;
+    border: none;
+    height: 5vh;
+    cursor: pointer;
+    font-style: italic;
+  }
+  
+  button.login {
+    background-color: #ed9128;
+  }
+  
+  button.signin {
+    background-color: #c3d61a;
+  }
+  
+  /* Estilos de la página de inicio de sesión */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 60vw;
+    align-items: center;
+  }
+  
+  .formulario input {
+    width: 80%;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color: #c3d61a;
+    width: 30%;
+    border: none;
+    height: 5vh;
+    cursor: pointer;
+    font-style: italic;
+  }
+  
+  /* Estilos de la página de resultados */
+  table {
+    border-collapse: collapse;
+    width: 90vw;
+  }
+  
+  td, th {
+    border: solid 2px #ed9128;
+    text-align: center;
+  }
+  
+  th:nth-of-type(1) {
+    width: 10%;
+  }
+  
+  th:nth-of-type(2) {
+    width: 20%;
+  }
+  
+  th:nth-of-type(3), th:nth-of-type(4) {
+    width: 25%;
+  }
+  
+  th:nth-of-type(5) {
+    width: 10%;
+  }
+  
+  th:nth-of-type(6) {
+    width: 10%;
+  }
+  
+  p.login_ok {
+    color: green;
+  }
+  
+  p.login_ko {
+    color: red;
+  }
+  
